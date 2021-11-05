@@ -4,7 +4,6 @@ namespace Chapdel\Credit;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Chapdel\Credit\Commands\CreditCommand;
 
 class CreditServiceProvider extends PackageServiceProvider
 {

@@ -6,7 +6,6 @@ use Chapdel\Credit\Credit;
 
 trait HasCredits
 {
-
     /**
      * Get the credit amount for specified model
      * @return mixed
@@ -48,6 +47,7 @@ trait HasCredits
         $credit = $this->credit;
         $credit->amount = $credit->amount + $amount;
         $credit->save();
+
         return $credit;
     }
 
@@ -63,6 +63,7 @@ trait HasCredits
         $credit = $this->credit;
         $credit->amount = $credit->amount - $amount;
         $credit->save();
+
         return $credit;
     }
 

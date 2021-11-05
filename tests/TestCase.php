@@ -2,9 +2,9 @@
 
 namespace Chapdel\Credit\Tests;
 
+use Chapdel\Credit\CreditServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Chapdel\Credit\CreditServiceProvider;
 
 class TestCase extends Orchestra
 {
