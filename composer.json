@@ -1,18 +1,19 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "chapdel/laravel-credit",
+    "description": "Model credits system for Laravel.",
     "keywords": [
-        ":vendor_name",
+        "chapdel",
         "laravel",
-        ":package_slug"
+        "laravel-credit",
+        "credits"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/chapdel/laravel-credit",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
-            "role": "Developer"
+            "name": "Chapdel KAMGA",
+            "email": "drop@chapdel.me",
+            "role": "Maintainer"
         }
     ],
     "require": {
@@ -34,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Chapdel\\Credit\\": "src",
+            "Chapdel\\Credit\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Chapdel\\Credit\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Chapdel\\Credit\\CreditServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Credit": "Chapdel\\Credit\\CreditFacade"
             }
         }
     },
