@@ -1,4 +1,4 @@
-# This is my package laravel-credit
+# Model credits system for laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/chapdel/laravel-credit.svg?style=flat-square)](https://packagist.org/packages/chapdel/laravel-credit)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/chapdel/laravel-credit/run-tests?label=tests)](https://github.com/chapdel/laravel-credit/actions?query=workflow%3Arun-tests+branch%3Amain)
