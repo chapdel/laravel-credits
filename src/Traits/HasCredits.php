@@ -1,6 +1,6 @@
 <?php
 
-namespace Chapdel\Credits\Traits;
+namespace Chapdel\Credit\Traits;
 
 use Chapdel\Credit\Credit;
 
