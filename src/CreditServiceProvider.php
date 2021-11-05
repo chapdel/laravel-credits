@@ -17,7 +17,7 @@ class CreditServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-credit')
-            ->hasConfigFile()
+            ->hasConfigFile("credits")
             ->hasMigration('create_credit_table');
     }
 }

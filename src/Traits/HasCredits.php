@@ -22,7 +22,7 @@ trait HasCredits
      */
     public function initCredits()
     {
-        return $this->credit()->create(["amount" => config("credit.initial")]);
+        return $this->credit()->create(["amount" => config("credits.initial")]);
     }
 
     /**
